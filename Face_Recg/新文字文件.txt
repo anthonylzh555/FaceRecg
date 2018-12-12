@@ -1,0 +1,6 @@
+create dataset -> dataset creator -> done
+train the recgnizer -> trainner -> done
+detector -> detector -> done
+
+
+
