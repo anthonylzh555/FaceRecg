@@ -4,8 +4,8 @@ import cv2
 imagePath = r'./people.jpg' 
 cascPath = r'./haarcascade_frontalface_default.xml'
 
-faceCascade = cv2.CascadeClassifier("C:\\OpenCV3.1\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml")
-image = cv2.imread("c:\\users\\06006674\\Desktop\\Python_project\\image\\people.jpg",1)
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+image = cv2.imread("people.jpg",1)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 
